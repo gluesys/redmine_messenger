@@ -5,6 +5,7 @@ This plugin posts updates to issues in your Redmine installation to [Slack](http
 
 [![Rate at redmine.org](https://img.shields.io/badge/rate%20at-redmine.org-blue.svg?style=fla)](https://www.redmine.org/plugins/redmine_messenger) [![Build Status](https://travis-ci.org/AlphaNodes/redmine_messenger.svg?branch=master)](https://travis-ci.org/AlphaNodes/redmine_messenger)
 
+
 Features
 --------
 
@@ -21,6 +22,7 @@ Features
 * parent project support (inherit messenger settings from parent project)
 * multiple channel support (define one or more channels to deliver note)
 
+
 Screenshot
 ----------
 
@@ -31,6 +33,7 @@ Mattermost output:
 Redmine configuration:
 
 ![screenshot](https://raw.githubusercontent.com/alphanodes/redmine_messenger/master/assets/images/screenshot_redmine_settings.png)
+
 
 Prepare your messenger service
 ------------------------------
@@ -60,6 +63,7 @@ Requirements
 * Ruby version >= 2.4.0
 
 If you want to use it with Redmine 3.x, use git tag 1.0.5
+
 
 Installation
 ------------
@@ -102,3 +106,11 @@ The source code is forked from
   - [redmine-slack](https://github.com/sciyoshi/redmine-slack)
 
 Special thanks to the original author and contributors for making this awesome hook for Redmine. This fork is just refactored to use Messenger-namespaced configuration options in order to use all hooks for Rocket.Chat, Mattermost AND Slack in a Redmine installation.
+
+
+Translation
+-----------
+
+Translation in french by Zer00CooL created for redmine_messenger tested and optimized with Redmine RVM and Slack for the media lecannabiste.com
+
+French tutorial for Redmine RVM installation : https://wiki.visionduweb.fr/index.php?title=Installer_Redmine_sur_Debian_avec_RVM

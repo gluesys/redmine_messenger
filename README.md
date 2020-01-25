@@ -112,4 +112,5 @@ Translation
 -----------
 
 Translation in french by Zer00CooL created for redmine_messenger tested and optimized with Redmine RVM and Slack for the media lecannabiste.com
+
 French tutorial for Redmine RVM installation : https://wiki.visionduweb.fr/index.php?title=Installer_Redmine_sur_Debian_avec_RVM

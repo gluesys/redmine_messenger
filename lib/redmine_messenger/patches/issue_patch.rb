@@ -13,6 +13,8 @@ module RedmineMessenger
       end
 
       module InstanceMethods
+        include ActionView::Helpers::TagHelper
+
         def send_messenger_create
           channels = Messenger.channels_for_project project
           url = Messenger.url_for_project project
